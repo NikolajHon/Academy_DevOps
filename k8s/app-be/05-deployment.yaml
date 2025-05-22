@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: honch-backend
-        image: fsahoncharenkoregistry.azurecr.io/fsa-backend:1.2
+        image: fsahoncharenkoregistry.azurecr.io/fsa-backend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: fsa-frontend
-        image: fsahoncharenkoregistry.azurecr.io/fsa-frontend:1.2
+        image: fsahoncharenkoregistry.azurecr.io/fsa-frontend:latest
         imagePullPolicy: Always
         ports:
         - name: http

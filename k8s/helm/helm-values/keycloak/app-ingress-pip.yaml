@@ -14,10 +14,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - 20.223.168.156.nip.io
+        - clg-posam.com
       secretName: fsa-cert
   rules:
-    - host: 20.223.168.156.nip.io
+    - host: clg-posam.com
       http:
         paths:
           - path: /api
